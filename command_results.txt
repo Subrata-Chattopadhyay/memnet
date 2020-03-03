@@ -1,0 +1,6 @@
+python train.py --model_name memnet --dataset restaurant --num_epoch 15 --seed 9 --learning_rate 0.01 --hops 3 
+
+output:
+
+>> test_acc: 0.7321, test_f1: 0.5349
+

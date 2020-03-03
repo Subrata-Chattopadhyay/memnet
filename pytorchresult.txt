@@ -1,0 +1,231 @@
+Memnet :
+Restuarant
+test_acc: 0.6777, test_f1: 0.4071
+ test_acc: 0.7348, test_f1: 0.5908
+test_acc: 0.7357, test_f1: 0.5742
+test_acc: 0.7339, test_f1: 0.5653
+test_acc: 0.7330, test_f1: 0.5612
+test_acc: 0.7393, test_f1: 0.5756
+
+0,3
+>> test_acc: 0.7321, test_f1: 0.5719
+>> test_acc: 0.7321, test_f1: 0.5719
+
+0,4
+>> test_acc: 0.7321, test_f1: 0.5719
+
+
+seed 1,
+>> test_acc: 0.7232, test_f1: 0.5504
+-------------------------------------------------------------------------------------
+
+fixed  first 150 as validation 
+seed 2,
+fixed  first 150 as validation 
+ test_acc: 0.7286, test_f1: 0.5513
+
+
+seed 0 >> test_acc: 0.7375, test_f1: 0.5824
+seed 1 >> test_acc: 0.7232, test_f1: 0.5443
+seed 2 >> test_acc: 0.7286, test_f1: 0.5513
+seed 3 >> test_acc: 0.7509, test_f1: 0.5922
+seed 4 >> test_acc: 0.7250, test_f1: 0.5458
+seed 5 >> test_acc: 0.7348, test_f1: 0.5603
+seed 6 >> test_acc: 0.7330, test_f1: 0.5733
+seed 7 >> test_acc: 0.7357, test_f1: 0.5803
+seed 8 >> test_acc: 0.7321, test_f1: 0.5565
+seed 9 >> test_acc: 0.7384, test_f1: 0.5773
+seed 10>> test_acc: 0.7232, test_f1: 0.5324
+
+Mean Test Accuracy	:	0.73294545454545
+Variance, σ2: 	5.9687933884298E-5
+Std Deviation : Standard Deviation, σ: 0.0077257966504625
+
+
+Mean f1-score:	0.56328181818182
+Variance, σ2: 	0.00032784694214876
+Standard Deviation, σ: 0.018106544180179
+
+	
+--------------------------------------------------
+
+
+Memnet :
+Laptop
+seed test acc. & f1.  
+1 >> test_acc: 0.5940, test_f1: 0.4845
+2   >> test_acc: 0.5956, test_f1: 0.4726
+3 >> test_acc: 0.6034, test_f1: 0.4923
+4 >> >> test_acc: 0.6285, test_f1: 0.5215
+5 >> test_acc: 0.6176, test_f1: 0.5137
+6 >> test_acc: 0.5925, test_f1: 0.4812
+7 >> test_acc: 0.6317, test_f1: 0.5305
+8 >> test_acc: 0.6191, test_f1: 0.5207
+9>> test_acc: 0.5674, test_f1: 0.4494
+10>> >> test_acc: 0.6097, test_f1: 0.4924
+
+Mean Accuracy : 0.60595
+Accuracy Std Deviation : Standard Deviation, σ: 0.018487035998234
+Variance: 0.0003417705
+
+Mean f1-score:	0.49588
+Variance of f1-score: 	0.0005860796
+Standard Deviation, σ: 0.024209080940837
+
+
+
+
+Memnet(As in the code by song)
+epoch=15 hop=3
+Restuarant
+seed 1 >> test_acc: 0.7527, test_f1: 0.6239
+seed 2>> test_acc: 0.7571, test_f1: 0.6188
+seed 3>> >> test_acc: 0.7589, test_f1: 0.6303
+seed 3 >> test_acc: 0.7393, test_f1: 0.6097 (learning 0.01)
+
+
+
+--------------------
+29TH FEB,2020
+learning rate=0.01 & other variables set to 0.01 from a uniform distribution and hop=3: 
+-seed 2 --learning_rate 0.01
+>> test_acc: 0.7312, test_f1: 0.6326
+
+seed 3
+>> test_acc: 0.7250, test_f1: 0.5499
+
+seed 4
+>> >> test_acc: 0.7205, test_f1: 0.5057
+>> test_acc: 0.7205, test_f1: 0.5057
+
+seed 5
+>>>> test_acc: 0.7241, test_f1: 0.5371
+
+
+SEED 6
+>> test_acc: 0.7116, test_f1: 0.5225
+
+seed 7
+>> test_acc: 0.7134, test_f1: 0.5492
+seed 8
+>> test_acc: 0.7125, test_f1: 0.5439
+>> test_acc: 0.7018, test_f1: 0.5353
+
+>> test_acc: 0.7080, test_f1: 0.5141
+
+
+
+(both initializered to 0.01) 
+
+
+
+
+
+
+
+
+
+seed 8>> test_acc: 0.7143, test_f1: 0.5642(both initializered to 0.01) 
+>> test_acc: 0.7143, test_f1: 0.5642
+>> test_acc: 0.7143, test_f1: 0.5642
+
+>> test_acc: 0.7143, test_f1: 0.5642
+
+seed 7>> test_acc: 0.7304, test_f1: 0.5601
+>> test_acc: 0.7304, test_f1: 0.5601
+
+
+>> test_acc: 0.7304, test_f1: 0.5601
+
+seed 9
+>> test_acc: 0.7321, test_f1: 0.5349
+
+> val_acc: 0.7009, val_f1: 0.4586(GPU)
+>> test_acc: 0.7188, test_f1: 0.5399
+
+seed 6 
+> val_acc: 0.5277, val_f1: 0.4100
+>> test_acc: 0.7080, test_f1: 0.5141
+
+
+seed 5
+>>
+>> test_acc: 0.7063, test_f1: 0.5451
+
+
+
+
+seed 4
+> val_acc: 0.3527, val_f1: 0.2592
+>> test_acc: 0.7063, test_f1: 0.5488
+
+
+
+seed 3
+>> test_acc: 0.6973, test_f1: 0.4579
+
+seed 2
+>> test_acc: 0.7143, test_f1: 0.4986
+
+>> test_acc: 0.7143, test_f1: 0.4986
+
+
+
+
+
+
+
+--------------------------------------------------------------
+BERT SPC
+Laptop
+seed 1>> test_acc: 0.7304, test_f1: 0.6823
+seed 2>> test_acc: 0.7398, test_f1: 0.6754
+seed 3>> test_acc: 0.7665, test_f1: 0.7241
+seed 4>> test_acc: 0.7586, test_f1: 0.7091
+seed 5 >> test_acc: 0.7524, test_f1: 0.6817
+seed 6 >> test_acc: 0.7382, test_f1: 0.6530
+seed 7>>>> test_acc: 0.7774, test_f1: 0.7323
+seed 8 >> test_acc: 0.7492, test_f1: 0.6919
+seed 9>> test_acc: 0.7429, test_f1: 0.7028
+seed 10 >> test_acc: 0.7382, test_f1: 0.6493
+
+Test Mean Accuracy :	0.74936
+Variance of Test Accuracy: 	0.0001916364
+Standard Deviation, σ: 0.01384327995816
+
+
+Test Mean f1-score :	0.69019
+Variance, σ2: 	0.0006850829
+Std Deviation : 0.026174088331783
+
+
+
+
+
+
+
+Restuarant
+
+seed 1: >> test_acc: 0.8348, test_f1: 0.7306
+seed 2 : >> test_acc: 0.8232, test_f1: 0.7056
+seed 3  >> test_acc: 0.8232, test_f1: 0.7382
+seed 4 >> test_acc: 0.8152, test_f1: 0.7477
+seed 5 >> test_acc: 0.8143, test_f1: 0.7150
+seed 6 >> test_acc: 0.8098, test_f1: 0.7054
+seed 7 >> >> test_acc: 0.8339, test_f1: 0.7405
+seed 8 >> test_acc: 0.8232, test_f1: 0.7253
+seed 9 >> test_acc: 0.8179, test_f1: 0.7349
+seed 10 >> test_acc: 0.8491, test_f1: 0.7742
+>> test_acc: 0.8286, test_f1: 0.7585
+>> test_acc: 0.8286, test_f1: 0.7585
+
+Standard Deviation, σ: 0.011201981967491
+Mean test accuracy:	0.82446
+Variance, σ2: 	0.0001254844
+	
+
+Standard Deviation, σ: 0.019713254424371
+Mean f1-score:	0.73174
+Variance, σ2: 	0.0003886124
+
+
